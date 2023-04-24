@@ -1,0 +1,25 @@
+-
+  name: get pet info
+  request:
+    method: get
+    url: https://jsonplaceholder.typicode.com/posts
+    headers:
+      Content-type: application/json; charset=UTF-8
+    data:
+      title: first
+      body: second
+      userId: 1
+  validate: None
+
+-
+  name: post pet info
+  request:
+    method: post
+    url: https://jsonplaceholder.typicode.com/posts
+    headers:
+      Content-type: application/json; charset=UTF-8
+    data:
+      title: first
+      body: second
+      userId: 1
+  validate: None
